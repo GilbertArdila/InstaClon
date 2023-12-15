@@ -23,7 +23,7 @@ const Search = () => {
       <input
         type="text"
         placeholder="Search..."
-        className="bg-gray-50 pl-10 border-gray-500 text-sm rounded-md focus:ring-black focus:border-black w-40 sm:w-72 lg:w-96"
+        className="bg-gray-50 pl-10 border-gray-500 text-sm rounded-md focus:ring-black focus:border-black w-28 sm:w-72 lg:w-96"
       />
     </div>
   );

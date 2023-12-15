@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Search from "./Search";
-
+import HeaderMenu from "./HeaderMenu";
 const Header = () => {
   return (
-    <div className="flex justify-between items-center max-w-6xl p-2 mx-auto">
+    <div className="flex justify-between items-center max-w-6xl mx-4 xl:mx-auto">
       <div className="h-24 w-24 relative inline-grid lg:hidden  cursor-pointer">
         <Image
           src={
@@ -14,7 +14,7 @@ const Header = () => {
           className="object-contain"
         />
       </div>
-      <div className="h-24 w-20 relative hidden lg:inline-grid  cursor-pointer">
+      <div className="h-24 w-16  relative hidden lg:inline-grid  cursor-pointer">
         <Image
           src={
             "https://www.ayselucus.es/sites/default/files/noticias/fotos/dd734d6b-833f-4e35-83fe-2af26c055776.png"
@@ -29,7 +29,7 @@ const Header = () => {
      
       
 
-      <h2>menu</h2>
+      <HeaderMenu/>
     </div>
   );
 };

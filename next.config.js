@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images:{
-        domains:['cdn.josemiguelgarcia.net','www.ayselucus.es']
+        domains:['cdn.josemiguelgarcia.net','www.ayselucus.es','avatars.githubusercontent.com']
     }
 }
 
