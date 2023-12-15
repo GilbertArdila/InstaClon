@@ -3,7 +3,8 @@ import Search from "./Search";
 import HeaderMenu from "./HeaderMenu";
 const Header = () => {
   return (
-    <div className="flex justify-between items-center max-w-6xl mx-4 xl:mx-auto">
+    <header className="shadow-sm border-b sticky top-0 bg-white z-30">
+      <div className="flex justify-between items-center max-w-6xl mx-4 xl:mx-auto " >
       <div className="h-24 w-24 relative inline-grid lg:hidden  cursor-pointer">
         <Image
           src={
@@ -31,6 +32,8 @@ const Header = () => {
 
       <HeaderMenu/>
     </div>
+    </header>
+    
   );
 };
 
