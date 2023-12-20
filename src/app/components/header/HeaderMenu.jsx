@@ -11,7 +11,7 @@ const HeaderMenu = () => {
         viewBox="0 0 24 24"
         strokeWidth={1.5}
         stroke="currentColor"
-        className="hidden md:inline-flex w-6 h-6 cursor-pointer hover:scale-125 transition-transform duration-200 ease-out"
+        className="hidden md:inline-flex w-6 h-6 iconAnimation"
       >
         <path
           strokeLinecap="round"
@@ -26,7 +26,7 @@ const HeaderMenu = () => {
         viewBox="0 0 24 24"
         strokeWidth={1.5}
         stroke="currentColor"
-        className="w-6 h-6 cursor-pointer hover:scale-125 transition-transform duration-200 ease-out"
+        className="w-6 h-6 iconAnimation"
       >
         <path
           strokeLinecap="round"
