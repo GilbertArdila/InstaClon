@@ -28,7 +28,7 @@ const Post = ({ post }) => {
       </div>
       {/**Post image */}
       <img
-        className="object-cover w-full"
+        className="object-cover w-full "
         src={post.image}
         alt={post.userName}
       />
