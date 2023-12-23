@@ -5,6 +5,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'InstaClon',
+  
   description: 'Instagram clone using NextJs 14',
 }
 
