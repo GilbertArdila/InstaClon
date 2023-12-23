@@ -35,8 +35,8 @@ const HeaderMenu = () => {
         />
       </svg>
 
-      <img src={"https://avatars.githubusercontent.com/u/88728941?v=4"} alt="user-image" 
-          className="h-8 w-8 md:h-10 md:w-10 lg:h-14 lg:w-14 rounded-full cursor-pointer" />
+      <Image width={32} height={32} src={"https://avatars.githubusercontent.com/u/88728941?v=4"} alt="user-image" 
+          className=" md:h-10 md:w-10 lg:h-14 lg:w-14 rounded-full cursor-pointer" />
 
       
     </div>

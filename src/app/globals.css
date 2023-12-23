@@ -6,6 +6,12 @@
     .iconAnimation {
         @apply  hover:scale-125 transition-transform duration-200 ease-out cursor-pointer
     }
+    .btn{
+        @apply font-semibold text-blue-400 text-sm sm:text-base
+    }
+    .img{
+        @apply rounded-full border p-[2px]
+    }
 }
 
 

@@ -1,23 +1,14 @@
 'use client';
 
-import minifaker from "minifaker";
-import "minifaker/locales/en";
 import { useEffect, useState } from "react";
 import Story from "./Story";
+import { Faker } from "@/app/helpers/miniFaker";
 
 const Stories = () => {
     const [storyUser, setStoryUser] = useState([]);
 
     useEffect(() => {
-     const storyUsers = minifaker.array(70,(i)=>(
-        {
-            userName: minifaker.username({locale:"en"}).toLowerCase(),
-            image: `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70)}`,
-            id:i
-
-        }
-     ))
-     setStoryUser(storyUsers);
+     Faker(setStoryUser,70);
     
     }, [])
      

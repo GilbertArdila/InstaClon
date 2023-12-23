@@ -1,7 +1,8 @@
 import React from "react";
-import Stories from "./Stories";
+import Stories from "../stories/Stories";
 import Posts from "./Posts";
-import MiniProfile from "./MiniProfile";
+import MiniProfile from "../suggestions/MiniProfile"
+import Suggestions from "../suggestions/Suggestions";
 
 const Feed = () => {
   return (
@@ -15,7 +16,7 @@ const Feed = () => {
         <div className="fixed xl:w-[380px] w-auto  ">
           
           <MiniProfile/>
-          {/**Suggestions */}
+         <Suggestions/>
         </div>
       </section>
     </main>
